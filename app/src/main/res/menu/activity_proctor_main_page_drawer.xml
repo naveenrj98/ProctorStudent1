@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/semester2"
+            android:icon="@drawable/fui_idp_button_background_facebook"
+            android:title="Semester 2"
+            />
+        <item
+            android:id="@+id/semester4"
+            android:icon="@drawable/fui_idp_button_background_facebook"
+            android:title="Semester 4" />
+        <item
+            android:id="@+id/semester6"
+            android:icon="@drawable/fui_idp_button_background_twitter"
+            android:title="Semester 6" />
+        <item
+            android:id="@+id/semester8"
+            android:icon="@drawable/fui_idp_button_background_phone"
+            android:title="Semester 8" />
+
+
+    </group>
+
+
+
+</menu>

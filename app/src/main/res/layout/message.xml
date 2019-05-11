@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="109dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/message_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/message_text"
+        android:layout_below="@+id/message_text"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="78dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/message_user"
+        android:layout_alignBottom="@+id/message_user"
+        android:layout_marginStart="36dp"
+        android:layout_toEndOf="@+id/message_user"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/message_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/message_user"
+        android:layout_below="@+id/message_user"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="47dp"
+        android:text="TextView" />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/apptheme"
+    tools:context="com.diptibelur.proctorstudent.LoginPage">
+
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:text="naveenkumarr98@gmail.com"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:defaultFocusHighlightEnabled="true"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColorHighlight="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/passtext"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="password"
+        android:layout_alignEnd="@+id/emailtext"
+        android:layout_below="@+id/emailtext"
+        android:layout_marginTop="32dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:contextClickable="false"
+        android:defaultFocusHighlightEnabled="false"
+        android:ems="10"
+        android:focusedByDefault="false"
+        android:inputType="textPassword"
+        android:textColorHighlight="@color/colorPrimary" />
+
+
+
+    <Button
+        android:id="@+id/LoginAsProctor"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:background="@drawable/color"
+        android:text="LOGIN AS PROCTOR"
+        android:textColor="@color/colorWhite"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:text="Not a Member? Student register Now!"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"/>
+
+
+
+</RelativeLayout>

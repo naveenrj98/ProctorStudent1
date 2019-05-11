@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greybg"
+    tools:context="com.diptibelur.proctorstudent.StudentsPage">
+
+
+    <FrameLayout
+        android:id="@+id/showSchedule2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/showParent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/scheduled"
+        android:text="SEND SCHEDULE">
+
+        <TextView
+            android:id="@+id/months"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:text="MONTH"
+            android:textColor="@color/browser_actions_bg_grey"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/times"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/announcementsbutton"
+            android:layout_marginBottom="35dp"
+            android:layout_toStartOf="@+id/signoutbutton"
+            android:paddingLeft="40dp"
+            android:paddingTop="60dp"
+            android:text="TIME"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:id="@+id/gotochatbutton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/signoutbutton"
+            android:layout_marginBottom="44dp"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="28dp"
+            android:layout_toEndOf="@+id/announcementsbutton"
+            android:background="@drawable/proctorchat" />
+
+        <Button
+            android:id="@+id/announcementsbutton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignBottom="@+id/chatwithstudent2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="204dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/commonannouncements" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/showParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/signoutbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/color"
+        android:text="SIGN OUT"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>

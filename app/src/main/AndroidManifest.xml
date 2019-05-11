@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diptibelur.proctorstudent">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Proctored"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="ProctorStudent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProcotorRegistrationPage" />
+        <activity android:name=".Main4Activity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".ProctorMainPage"
+            android:label="@string/title_activity_proctor_main_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CommonAnnouncementPage"
+            android:label="@string/title_activity_common_announcement_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentsReportPage" />
+        <activity android:name=".StudentsPage" />
+
+        <activity android:name=".StudentViewCA" />
+        <activity android:name=".StudentMainCA" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ChatProctorList" />
+        <activity android:name=".ProctorStudentMainPage"
+            android:label="proctor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginStudent" />
+        <activity android:name=".LoginProctor"></activity>
+    </application>
+
+</manifest>

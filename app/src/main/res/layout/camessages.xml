@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/catext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="66dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/catime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/catext"
+        android:layout_below="@+id/catext"
+        android:layout_marginTop="87dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/causer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/catime"
+        android:layout_below="@+id/catime"
+        android:layout_marginTop="77dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/casemnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/causer"
+        android:layout_below="@+id/causer"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="89dp"
+        android:text="TextView" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "260874574788",
+    "firebase_url": "https://procotored.firebaseio.com",
+    "project_id": "procotored",
+    "storage_bucket": "procotored.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260874574788:android:ac03c2b73ab71246",
+        "android_client_info": {
+          "package_name": "com.diptibelur.proctorstudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260874574788-eb5bd5ehfr33qp5b6abkb11n6ccncthm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diptibelur.proctorstudent",
+            "certificate_hash": "1b1bffa2bce62a17ab4e84f6241674923731f9cc"
+          }
+        },
+        {
+          "client_id": "260874574788-ojm5sc4s71n9r789o5q2grjaovdqs5dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW-PiRIciOVKNzTHeDcSXgE2zSvxDj0Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260874574788-ojm5sc4s71n9r789o5q2grjaovdqs5dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

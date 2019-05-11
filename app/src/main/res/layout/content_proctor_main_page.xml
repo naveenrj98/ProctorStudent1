@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbf9ea">
+
+    <FrameLayout
+        android:id="@+id/screen_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ListView
+            android:id="@+id/newsfeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220dp"
+            android:background="@color/colorDarkGrey"
+            android:scrollbars="vertical" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@color/browser_actions_title_color"
+            android:id="@+id/scrollView">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="220dp"
+                    app:srcCompat="@drawable/bmsce" />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="240dp"
+                    app:srcCompat="@drawable/utsav" />
+
+                <ImageView
+
+                    android:layout_width="400dp"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/bmsh" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+
+
+</RelativeLayout>
